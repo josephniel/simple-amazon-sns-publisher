@@ -30,4 +30,4 @@ This wrapper assumes that there is already an SNS topic created (and defined in 
     "event_type": ["sample_type"]
 }
 ```
-More of setting up the filtering [here](https://aws.amazon.com/getting-started/tutorials/filter-messages-published-to-topics/).
+More of setting up the filtering [here](https://aws.amazon.com/getting-started/tutorials/filter-messages-published-to-topics/). Filter structure can be found [here](https://docs.aws.amazon.com/sns/latest/dg/message-filtering.html).
