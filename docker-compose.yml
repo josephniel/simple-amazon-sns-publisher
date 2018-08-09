@@ -1,0 +1,12 @@
+version: '2'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: publisher-container
+    ports:
+      # make host and container ports similar for brevity
+      - ${APP_PORT}:${APP_PORT}
+    volumes:
+      - .:/srv
